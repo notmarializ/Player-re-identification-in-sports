@@ -35,6 +35,7 @@ python setup.py develop
 ```bash
 pip install -r requirements.txt
 ```
+---
 
 ## Usage
 ### 1. Download your trained YOLOv8 weights and place them in:
@@ -50,6 +51,8 @@ drive/MyDrive/Projects/track/15sec_input_720p.mp4
 ### 3.Run the script/notebook
 
 If you're using Google Colab, make sure to mount Google Drive.
+
+--- 
 
 ## Model Details
 
@@ -75,6 +78,8 @@ Extracts feature embeddings from player crops.
 
 Uses cosine similarity to match players to an existing gallery.
 
+---
+
 ## Output
 
 Output video contains:
@@ -83,9 +88,13 @@ Bounding boxes for all detected objects.
 
 Persistent IDs drawn over players using ReID+tracking.
 
+---
+
 ## Notes
 
 ReID is only applied to players for identity consistency.
+
+---
 
 ## Acknowledgements
 
@@ -96,6 +105,8 @@ ByteTrack
 torchvision models
 
 OneMetric
+
+---
 
 ## License
 
