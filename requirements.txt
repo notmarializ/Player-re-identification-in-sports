@@ -1,0 +1,11 @@
+ultralytics
+yolox
+cython_bbox
+onemetric
+loguru
+lap
+opencv-python
+numpy
+torch
+torchvision
+tqdm
